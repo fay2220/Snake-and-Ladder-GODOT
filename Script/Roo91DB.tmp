@@ -1,0 +1,120 @@
+[gd_scene load_steps=4 format=3 uid="uid://ngsniwddn0ya"]
+
+[ext_resource type="Script" path="res://script/room_scene.gd" id="1_asu4e"]
+[ext_resource type="Texture2D" uid="uid://crixy4cv8lo11" path="res://assets/ui/GUI-3.png" id="2_aqk8g"]
+[ext_resource type="Theme" uid="uid://qt1jukm2lhon" path="res://assets/DarkTheme/Dark.theme" id="2_y1iwn"]
+
+[node name="RoomScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_asu4e")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1153.0
+offset_bottom = 639.0
+color = Color(0, 0, 0, 1)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -260.0
+offset_top = -189.0
+offset_right = 260.0
+offset_bottom = 189.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_aqk8g")
+region_rect = Rect2(0.377472, 0.168079, 30.7622, 31.8283)
+patch_margin_left = 8
+patch_margin_top = 7
+patch_margin_right = 7
+patch_margin_bottom = 8
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="PlayerListLabel" type="Label" parent="NinePatchRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -239.0
+offset_top = -179.0
+offset_right = 244.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_y1iwn")
+
+[node name="ServerClosedLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -360.5
+offset_top = 32.0
+offset_right = 360.5
+offset_bottom = 470.0
+grow_horizontal = 2
+theme = ExtResource("2_y1iwn")
+horizontal_alignment = 1
+
+[node name="CountdownLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -487.0
+offset_top = 32.0
+offset_right = 487.0
+offset_bottom = 555.0
+grow_horizontal = 2
+theme = ExtResource("2_y1iwn")
+horizontal_alignment = 1
+
+[node name="refresh" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 246.0
+offset_top = 583.0
+offset_right = 534.0
+offset_bottom = 620.0
+theme = ExtResource("2_y1iwn")
+text = "Start"
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -143.0
+offset_top = -105.0
+offset_right = 145.0
+offset_bottom = -68.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("2_y1iwn")
+text = "Start"
+
+[node name="Exit_button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 15.0
+offset_right = 77.0
+offset_bottom = 54.0
+theme = ExtResource("2_y1iwn")
+theme_override_colors/icon_normal_color = Color(0.138021, 7.52043e-09, 0.042674, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+text = "Exit"

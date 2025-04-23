@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://ngsniwddn0ya"]
+
+[ext_resource type="Script" path="res://Scene/room_scene.gd" id="1_vf2lx"]
+
+[node name="RoomScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vf2lx")
+
+[node name="refresh" type="Button" parent="."]
+layout_mode = 0
+offset_left = 394.0
+offset_top = 461.0
+offset_right = 682.0
+offset_bottom = 498.0
+text = "refresh"
+
+[node name="PlayerListLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 261.0
+offset_top = 172.0
+offset_right = 796.0
+offset_bottom = 433.0
