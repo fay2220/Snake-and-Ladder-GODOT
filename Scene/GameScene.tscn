@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://db8kx2kh2uqyn"]
+
+[node name="Boardgame" type="Node2D"]
+
+[node name="Brainrot" type="Sprite2D" parent="."]
+position = Vector2(962.21, 527.25)
+scale = Vector2(2.94484, 2.94484)

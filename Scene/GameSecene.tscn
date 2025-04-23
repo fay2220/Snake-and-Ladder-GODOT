@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://2og1i6ymp2hi"]
+
+[node name="Boardgame" type="Node2D"]
+
+[node name="Talala" type="Sprite2D" parent="."]
+position = Vector2(496, 300)
