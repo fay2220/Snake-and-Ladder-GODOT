@@ -1,0 +1,793 @@
+[gd_scene load_steps=63 format=3 uid="uid://j4irnrgafhqq"]
+
+[ext_resource type="Texture2D" uid="uid://dtta16uoh8rg0" path="res://img/Mapp.png" id="1_yi1lr"]
+[ext_resource type="Texture2D" uid="uid://cli5m0hp4p00n" path="res://DiceAnimation/dice0001.png" id="2_67jyc"]
+[ext_resource type="Texture2D" uid="uid://dypfxpphgr66x" path="res://DiceAnimation/dice0002.png" id="3_meq3t"]
+[ext_resource type="Texture2D" uid="uid://bj12l7bufm63s" path="res://DiceAnimation/dice0003.png" id="4_w63cn"]
+[ext_resource type="Texture2D" uid="uid://dmbe2820eottb" path="res://DiceAnimation/dice0004.png" id="5_ctmit"]
+[ext_resource type="Texture2D" uid="uid://cfmfl43m2dcki" path="res://DiceAnimation/dice0005.png" id="6_6t0gu"]
+[ext_resource type="Texture2D" uid="uid://c712nlegktsd4" path="res://DiceAnimation/dice0006.png" id="7_xx507"]
+[ext_resource type="Texture2D" uid="uid://drmo8ouuvqgf7" path="res://DiceAnimation/dice0007.png" id="8_yoqkl"]
+[ext_resource type="Texture2D" uid="uid://c0gdsny6pa601" path="res://DiceAnimation/dice0008.png" id="9_lo5on"]
+[ext_resource type="Texture2D" uid="uid://c4k7qyy821e06" path="res://DiceAnimation/dice0009.png" id="10_uy05g"]
+[ext_resource type="Texture2D" uid="uid://co5pcgex06yqx" path="res://DiceAnimation/dice0010.png" id="11_rb47u"]
+[ext_resource type="Texture2D" uid="uid://bs1886roq18cq" path="res://DiceAnimation/dice0011.png" id="12_e4t71"]
+[ext_resource type="Texture2D" uid="uid://bp1d32fuivy0s" path="res://DiceAnimation/dice0012.png" id="13_u6a2d"]
+[ext_resource type="Texture2D" uid="uid://do75dynn52tic" path="res://DiceAnimation/dice0013.png" id="14_f52su"]
+[ext_resource type="Texture2D" uid="uid://oae7t6d2rr0g" path="res://DiceAnimation/dice0014.png" id="15_t7m8m"]
+[ext_resource type="Texture2D" uid="uid://b5qu48t4fb0l6" path="res://DiceAnimation/dice0015.png" id="16_4e24o"]
+[ext_resource type="Texture2D" uid="uid://ca70bfc7noaig" path="res://DiceAnimation/dice0016.png" id="17_j3xah"]
+[ext_resource type="Texture2D" uid="uid://cag8pm0ffkrtu" path="res://DiceAnimation/dice0017.png" id="18_uhugd"]
+[ext_resource type="Texture2D" uid="uid://cfxkojip1xqr4" path="res://DiceAnimation/dice0018.png" id="19_brsft"]
+[ext_resource type="Texture2D" uid="uid://f8bywre43xhi" path="res://DiceAnimation/dice0019.png" id="20_1lkhb"]
+[ext_resource type="Texture2D" uid="uid://bc1c6yulwh7gq" path="res://DiceAnimation/dice0020.png" id="21_obp6t"]
+[ext_resource type="Texture2D" uid="uid://cr8ysc7bpefdu" path="res://DiceAnimation/dice0021.png" id="22_evtht"]
+[ext_resource type="Texture2D" uid="uid://csiukbjkwlfrx" path="res://DiceAnimation/dice0022.png" id="23_8hms0"]
+[ext_resource type="Texture2D" uid="uid://c2wsfncv37bx3" path="res://DiceAnimation/dice0023.png" id="24_cmvsm"]
+[ext_resource type="Texture2D" uid="uid://chaj3jce5s5si" path="res://DiceAnimation/dice0024.png" id="25_e7sb4"]
+[ext_resource type="Texture2D" uid="uid://b16ck2kn61l43" path="res://DiceAnimation/dice0025.png" id="26_lxdsn"]
+[ext_resource type="Texture2D" uid="uid://cqbtk6y17kuvi" path="res://DiceAnimation/dice0026.png" id="27_ot71w"]
+[ext_resource type="Texture2D" uid="uid://bwsmfiblhtv3" path="res://DiceAnimation/dice0027.png" id="28_sl6es"]
+[ext_resource type="Texture2D" uid="uid://dfxuq533lndem" path="res://DiceAnimation/dice00028.png" id="29_kuf82"]
+[ext_resource type="Texture2D" uid="uid://br8fcni7os8xv" path="res://DiceAnimation/dice0029.png" id="30_xlg1g"]
+[ext_resource type="Texture2D" uid="uid://dhqcdu5e7ydn1" path="res://DiceAnimation/dice0030.png" id="31_op5t0"]
+[ext_resource type="Texture2D" uid="uid://bik53yywawrvd" path="res://DiceAnimation/dice0031.png" id="32_pdmo3"]
+[ext_resource type="Texture2D" uid="uid://x04q64huip4f" path="res://DiceAnimation/dice0032.png" id="33_k8me6"]
+[ext_resource type="Texture2D" uid="uid://h6sd3bs07slg" path="res://DiceAnimation/dice0033.png" id="34_mpbte"]
+[ext_resource type="Texture2D" uid="uid://cqvcxh6ubq724" path="res://DiceAnimation/dice0034.png" id="35_i0tl0"]
+[ext_resource type="Texture2D" uid="uid://ccn65a06n68d7" path="res://DiceAnimation/dice0035.png" id="36_hqyhx"]
+[ext_resource type="Texture2D" uid="uid://c736y6xtge7iu" path="res://DiceAnimation/dice0036.png" id="37_o5pd0"]
+[ext_resource type="Texture2D" uid="uid://n15no6lmjqa0" path="res://DiceAnimation/dice0037.png" id="38_p7hr6"]
+[ext_resource type="Texture2D" uid="uid://lhxk5qbirmvp" path="res://DiceAnimation/dice0038.png" id="39_22c5i"]
+[ext_resource type="Texture2D" uid="uid://cxfc4etlxbpoe" path="res://DiceAnimation/dice0039.png" id="40_mkdcr"]
+[ext_resource type="Texture2D" uid="uid://drybbmjnsul5r" path="res://DiceAnimation/dice0040.png" id="41_scv3y"]
+[ext_resource type="Texture2D" uid="uid://cw1kpmq3hxvoi" path="res://img/1.png" id="42_wr4vo"]
+[ext_resource type="Texture2D" uid="uid://bvc8q52o1xkf3" path="res://img/2.png" id="43_0b0ju"]
+[ext_resource type="Texture2D" uid="uid://dt4ggmt2vcu1t" path="res://img/3.png" id="44_rhv12"]
+[ext_resource type="Texture2D" uid="uid://kp7bc6app5es" path="res://img/4.png" id="45_m4dex"]
+[ext_resource type="Texture2D" uid="uid://clra26hcufwvp" path="res://img/5.png" id="46_maqq3"]
+[ext_resource type="Texture2D" uid="uid://bjk3vpdmlon" path="res://img/6.png" id="47_06mhr"]
+[ext_resource type="Texture2D" uid="uid://3r2q7birpc4s" path="res://img/ไม่มีชื่อ (75 x 66 px) (640 x 640 px).png" id="47_ngqhu"]
+[ext_resource type="Texture2D" uid="uid://bjq2y3gia7g48" path="res://players/player1.png" id="49_3d3au"]
+[ext_resource type="Texture2D" uid="uid://bsdi8f1fc1fgi" path="res://img/Screenshot 2568-04-06 at 00.03.30.png" id="49_go3q2"]
+[ext_resource type="Texture2D" uid="uid://xps5xrfl1b2w" path="res://players/player2.png" id="50_o67c0"]
+[ext_resource type="Texture2D" uid="uid://bkuv07yq5s46n" path="res://players/player3.png" id="51_sg7rs"]
+[ext_resource type="Texture2D" uid="uid://xyfbipkw1qlu" path="res://players/player4.png" id="52_buca6"]
+[ext_resource type="Theme" uid="uid://qt1jukm2lhon" path="res://assets/DarkTheme/Dark.theme" id="54_ctwjd"]
+[ext_resource type="Texture2D" uid="uid://bhufjdifs67jt" path="res://img/ChatGPT Image 21 เม.ย. 2568 19_28_31.png" id="55_8bbyh"]
+[ext_resource type="FontFile" uid="uid://cmvjoluu8dji7" path="res://assets/minecraft_font.ttf" id="55_yjboo"]
+
+[sub_resource type="GDScript" id="GDScript_sbbv7"]
+resource_name = "new01"
+script/source = "extends Node2D
+
+@onready var turn_label = $TurnLabel
+@onready var dice_button = $Dice_Button
+@onready var dice_animation = $DiceAnimation
+@onready var dice_face = $DiceFace
+@onready var game_over = $GameOver
+@onready var is_host_label = $isHost
+@onready var dice_label = $DiceLabel
+@onready var path_walk = $PathWalk
+@onready var path_follow = $PathWalk/PathFollow2D2
+@onready var message_label = $message_label
+@onready var exit_button = $NinePatchRect2/Exit_button
+
+var player_nodes = {}
+# Player paths
+
+func _ready():
+	if not multiplayer.has_multiplayer_peer():
+		return_to_lobby()
+		return 
+	
+	var my_name = Global.my_name
+	
+	if multiplayer.is_server():
+		is_host_label.text = \"🖥️Host \" + my_name
+		for player_id in Global.players.keys():
+			setup_player_node.rpc(player_id)  # ส่งให้ทุกเครื่องสร้าง
+			print(\"สร้าง PathFollow2D สำหรับผู้เล่น ID:\",player_id)
+		await get_tree().create_timer(0.5).timeout
+		initialize_game.rpc()
+		print(Global.players_turn)
+	else:
+		is_host_label.text = \"🎮Client \" + my_name
+	
+	if Global.peer:
+		multiplayer.multiplayer_peer = Global.peer
+	
+	dice_button.pressed.connect(_on_dice_pressed)
+	exit_button.pressed.connect(_on_exit_button_pressed)
+	
+	await get_tree().create_timer(1.0).timeout
+	if multiplayer.multiplayer_peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
+		return_to_lobby()
+	
+	if path_walk.curve == null:
+		push_error(\"Path2D ไม่มี Curve กําหนด!\")
+		return
+	
+	path_follow.progress_ratio = 0
+	path_follow.rotation = false
+	print(player_nodes)
+	print(Global.players_turn)
+	print(\"_______________________________\")
+	
+	notify_current_player.rpc()
+	
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func setup_player_node(player_id: int):
+	# สร้าง PathFollow2D ใหม่
+	var new_path_follow = PathFollow2D.new()
+	new_path_follow.name = \"PlayerFollow_%d\" % player_id
+	new_path_follow.rotates = false
+	
+	# เพิ่มเข้าไปใน Path2D
+	$PathWalk.add_child(new_path_follow)
+	
+	# สร้าง Sprite หรือ Character
+	var player_sprite = Sprite2D.new()
+	player_sprite.name = \"Character\"
+	player_sprite.texture = load(get_character_texture(player_id))
+	player_sprite.scale = Vector2(0.4, 0.4)
+	new_path_follow.add_child(player_sprite)
+	
+	# เก็บ Reference
+	player_nodes[player_id] = new_path_follow
+	
+	# ตั้งค่าตำแหน่งเริ่มต้น
+	new_path_follow.progress_ratio = 0
+	print(\"สร้าง PathFollow2D สำหรับผู้เล่น ID:\", player_id)
+
+func get_character_texture(player_id: int) -> String:
+	# ตัวละครตาม ID
+	var skin = {
+		1: \"res://players/fay01.png\",
+		2: \"res://players/fay02.png\",
+		#3: \"res://players/Player1.png\",
+		#4: \"res://players/PLayer2.png\"
+	}
+	return skin.get(abs(player_id) % 4 + 1, skin[1])  # สลับสีหาก ID เกิน
+
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func initialize_game():
+	if multiplayer.is_server():
+		Global.player_order = Global.players.keys()
+		Global.player_order.sort()
+
+@rpc(\"any_peer\", \"call_local\", \"reliable\")
+func notify_current_player():
+	for player_id in Global.players_turn:
+		var show = (Global.players_turn[player_id] == 1)
+		show_dice_button.rpc_id(player_id, show)
+
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func show_dice_button(show: bool):
+	dice_button.disabled = !show
+	dice_button.visible = show
+
+@rpc(\"call_remote\", \"reliable\")
+func update_turn_display(player_id: int, player_name: String):
+	# อัปเดตข้อความให้ทุกคน
+	turn_label.text = \"🎯 ตาของ: \" + player_name
+	turn_label.show()
+	
+	# เอฟเฟกต์แสดงผล
+	var tween = create_tween()
+	tween.tween_property(turn_label, \"modulate:a\", 1.0, 0.5).from(0.0)
+	
+	# เช็กว่าเป็นเทิร์นของเราหรือไม่
+	if Global.my_id == player_id and Global.players_turn.get(player_id, 0) == 1:
+		print(\"It's your turn!\") # หรือทำอย่างอื่น เช่น ปลดล็อกปุ่มโยนเต๋า
+	else:
+		print(\"Waiting for your turn...\")
+
+func _on_dice_pressed():
+	dice_button.hide()
+	dice_face.hide()
+	dice_animation.show()
+	dice_animation.play(\"DiceRolling\")
+	
+	await dice_animation.animation_finished
+	var roll = randi_range(1, 6)
+	#var roll = 10
+	dice_label.text = Global.my_name + \"🎲 ทอยได้ : \" + str(roll)
+	
+	dice_face.frame = roll - 1
+	dice_face.show()
+	dice_animation.hide()
+	
+		# ส่งผลทอยไปยัง Host (รวมถึงตัวเองถ้าเป็น Host)
+	if multiplayer.is_server():
+		# ถ้าเป็น Host ให้ประมวลผลทันที
+		process_roll_result(multiplayer.get_unique_id(), roll)
+	else:
+		# ถ้าเป็น Client ส่งไปหา Host
+		send_roll_result.rpc_id(1, multiplayer.get_unique_id(), roll)
+
+@rpc(\"any_peer\", \"reliable\")
+func send_roll_result(player_id: int, roll: int):
+	if not multiplayer.is_server():
+		return
+	process_roll_result(player_id, roll)
+	
+
+# ฟังก์ชันสำหรับประมวลผลผลลัพธ์การทอย (ทำงานบน Host)
+func process_roll_result(player_id: int, roll: int):
+	print(\"📨 รับค่าทอยจากผู้เล่น ID:\", player_id, \" ได้แต้ม:\", roll)
+	var player_name = Global.players[player_id]
+	show_dice_result.rpc(player_name,roll)
+	print(\"ล่าสุด\",Global.players_point)
+	var current = Global.players_point[player_id]
+	Global.players_point[player_id] += roll
+	var end_spot = Global.players_point[player_id]
+	move_player.rpc(player_id, end_spot,current)  # สั่งให้ทุกเครื่องเคลื่อนที่
+	print(\"update\",Global.players_point)
+	update_player_point_turn.rpc(player_id, end_spot)
+	
+	next_turn()
+	
+
+# ฟังก์ชันแสดงผลลัพธ์ลูกเต๋าบนทุกเครื่อง
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func show_dice_result(player_name: String, roll: int):
+	dice_label.text = player_name + \" 🎲 ทอยได้: \" + str(roll)
+
+@rpc(\"reliable\")
+func update_player_point_turn(player_id: int, new_point: int):
+	Global.players_point[player_id] = new_point
+	
+
+func next_turn():
+	var player_ids = Global.players_turn.keys()
+	var current_id = null
+
+	# หา ID ที่กำลังถือ turn ตอนนี้ (ก่อน reset)
+	for id in player_ids:
+		if Global.players_turn[id] == 1:
+			current_id = id
+			break
+	
+	# รีเซ็ต turn ของ current_id เป็น 0 ก่อน
+	if current_id != null:
+		Global.players_turn[current_id] = 0
+
+	# หา index ของ ID ปัจจุบัน
+	var current_index = player_ids.find(current_id)
+	# คำนวณ index ถัดไป (วนกลับถ้าถึงสุด)
+	var next_index = (current_index + 1) % player_ids.size()
+	var next_id = player_ids[next_index]
+	# ตั้ง next_id ให้เป็นคนถือ turn
+	Global.players_turn[next_id] = 1
+
+	# แจ้งเตือนทุกคนว่าใครได้ตา
+	notify_current_player.rpc()
+	# ✅ เช็คแค่ตัวเองคนเดียว
+	if next_id == multiplayer.get_unique_id():
+		dice_button.show()
+		print(\"🎯 It's your turn! (ID:%d)\" % next_id)
+	else:
+		dice_button.hide()
+		print(\"⏳ Waiting... (Next ID:%d)\" % next_id)
+		
+		
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func move_player(player_id: int,end_spot: int,current: int):
+	print(\"move_player\")
+
+	for i in range(current +1 , end_spot + 1):
+		var point_position = path_walk.curve.get_point_position(i)
+		var tween := create_tween()
+		tween.tween_property(player_nodes[player_id], \"position\", point_position, 0.2)
+		print(\"กำลังเดินไปยังจุดที่ \", i)
+		await tween.finished  # รอให้เคลื่อนที่ถึงจุดก่อนตรวจสอบ
+		
+		# ตรวจสอบว่าจุดปัจจุบันมีบันไดหรืองูหรือไม่
+	check_special_tile(end_spot , player_id)
+	print(\"กำลังเดินไปยังจุดที่ \", end_spot)
+	if multiplayer.is_server():
+		if Global.players_point[player_id] > 99 :
+			announce_winner.rpc(player_id)
+
+func check_special_tile(position: int, player_id: int):
+	# ตรวจสอบและจัดการกับไทล์พิเศษ (บันได/งู)
+	var new_position = position
+	print(\"กำลังเดินไปยังจุดที่ \", position-1)
+	# ตัวอย่างข้อมูลบันได (ตำแหน่งเริ่ม -> ปลายทาง)
+	var ladders = {
+		5: 58,
+		14: 49,
+		42: 60,
+		53: 72,
+		64: 83, 
+		75: 94
+	}
+	# ตัวอย่างข้อมูลงู (ตำแหน่งเริ่ม -> ปลายทาง)
+	var snakes = {
+		38: 20,
+		45: 7,
+		51: 10,
+		76: 54,
+		91: 73,
+		97: 61,
+		99: 59
+	}
+	
+	# ตรวจสอบบันได
+	if position in ladders:
+		new_position = ladders[position]
+		show_message.rpc(Global.players[player_id] + \" พบบันได! ขึ้นไปยังช่อง \" + str(new_position))
+	
+	# ตรวจสอบงู
+	elif position in snakes:
+		new_position = snakes[position]
+		show_message.rpc(Global.players[player_id] + \" เจองู! ตกลงไปยังช่อง \" + str(new_position))
+	
+	# หากตำแหน่งเปลี่ยนให้เคลื่อนที่ไปยังจุดใหม่
+	if new_position != position:
+		var target_pos = path_walk.curve.get_point_position(new_position)
+		var jump_tween = create_tween()
+		jump_tween.tween_property(player_nodes[player_id], \"position\", target_pos, 0.5)
+		await jump_tween.finished
+		Global.players_point[player_id] = new_position  # อัพเดทตำแหน่งใหม่
+		update_player_point_turn.rpc(player_id, new_position)  # ส่งไปยังทุกเครื่อง
+		
+
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func show_message(msg: String):
+	# แสดงข้อความบน UI ทุกเครื่อง
+	message_label.text = msg
+	
+	 # สร้างและตั้งค่า StyleBox สำหรับพื้นหลัง
+	var style_box = StyleBoxFlat.new()
+	style_box.bg_color = Color(0, 0, 0, 0.7)  # สีดำความทึบ 70%
+	style_box.corner_radius_top_left = 10
+	style_box.corner_radius_top_right = 10
+	style_box.content_margin_left = 20
+	style_box.content_margin_right = 20
+	style_box.content_margin_top = 10
+	style_box.content_margin_bottom = 10
+	
+	# กำหนดให้ Label
+	message_label.add_theme_stylebox_override(\"normal\", style_box)
+	
+	var tween = create_tween()
+	tween.tween_property(message_label, \"modulate:a\", 1.0, 0.3)
+	tween.tween_interval(2.0)
+	tween.tween_property(message_label, \"modulate:a\", 0.0, 0.5)
+	tween.tween_callback(message_label.set.bind(\"text\", \"\"))
+	
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func announce_winner(player_id: int):
+	var winner_name = Global.players.get(player_id, \"Unknown\")
+	game_over.text = \"🏆 %s ชนะ!\" % winner_name
+	
+	 # สร้างและตั้งค่า StyleBox สำหรับพื้นหลัง
+	var style_box = StyleBoxFlat.new()
+	style_box.bg_color = Color(0, 0, 0, 0.7)  # สีดำความทึบ 70%
+	style_box.corner_radius_top_left = 10
+	style_box.corner_radius_top_right = 10
+	style_box.content_margin_left = 20
+	style_box.content_margin_right = 20
+	style_box.content_margin_top = 10
+	style_box.content_margin_bottom = 10
+	
+		# กำหนดให้ Label
+	game_over.add_theme_stylebox_override(\"normal\", style_box)
+	
+	var tween = create_tween()
+	tween.tween_property(game_over, \"modulate:a\", 1.0, 0.3)
+	tween.tween_interval(2.0)
+	tween.tween_property(game_over, \"modulate:a\", 0.0, 0.5)
+	tween.tween_callback(game_over.set.bind(\"text\", \"\"))
+	
+	dice_button.disabled = true
+	await get_tree().create_timer(5.0).timeout
+	return_to_lobby()
+
+func return_to_lobby():
+	get_tree().change_scene_to_file(\"res://Scene/lobby.tscn\")
+
+# แสดงข้อความเซิร์ฟเวอร์ปิด (ทำงานทั้ง Host และ Client)
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func notify_server_shutdown(message: String):
+	print(message)
+	message_label.text = message
+	message_label.show()
+
+
+
+# ฟังก์ชันจัดการเมื่อ Host ออก
+func handle_host_disconnected():
+	print(\"❌ เซิร์ฟเวอร์หลักออกจากเกม\")
+	show_server_closed_message()
+	await get_tree().create_timer(3.0).timeout
+	# เปลี่ยนไปหน้าเมนูหลักแทน quit()
+	get_tree().change_scene_to_file(\"res://Scene/main.tscn\")
+
+	if multiplayer.is_server() && multiplayer.multiplayer_peer.get_connection_status() != MultiplayerPeer.CONNECTION_DISCONNECTED:
+		notify_server_shutdown.rpc(\"⚠️ เซิร์ฟเวอร์ปิดการเชื่อมต่อ\")
+		await get_tree().create_timer(0.5).timeout
+		multiplayer.multiplayer_peer.close()
+
+
+# แสดงข้อความบน UI
+func show_server_closed_message():
+	var msg = \"เซิร์ฟเวอร์ปิดการเชื่อมต่อ\\nกำลังกลับไปหน้าเมนูหลัก...\"
+	message_label.text = msg
+	message_label.show()
+
+
+func _on_exit_button_pressed() -> void:
+	var my_id = multiplayer.get_unique_id()
+	print(\"👋 Player ID %d กดปุ่ม Exit\" % my_id)
+	if multiplayer.is_server():
+		# 🛑 Host ออก = ปิดห้อง
+		Global.players.clear()
+		notify_server_shutdown.rpc(\"เซิร์ฟเวอร์ปิดโดยผู้ดูแล\")
+		await get_tree().create_timer(3).timeout
+		handle_host_disconnected()	
+		multiplayer.multiplayer_peer.close()
+	else:
+		# 🛑 Client ออก = แจ้ง Host ลบตัวเอง
+		if multiplayer.has_multiplayer_peer():
+			notify_client_exit.rpc_id(1, my_id)  # ส่งไปหา Host ที่ id = 1
+			await get_tree().create_timer(0.5).timeout  # รอส่ง rpc ให้เสร็จก่อน
+		multiplayer.multiplayer_peer.close()
+	# ✅ เปลี่ยนกลับไปหน้าเมนู
+	Global.players.erase(my_id)  # สำรองลบชื่อใน client ด้วย
+	get_tree().change_scene_to_file(\"res://Scene/main.tscn\")
+
+@rpc(\"any_peer\", \"reliable\")
+func notify_client_exit(client_id: int):
+	print(\"❌ รับแจ้งว่าผู้เล่น ID %d ออกเกม\" % client_id)
+	
+	# ลบ Player Node
+	if player_nodes.has(client_id):
+		player_nodes[client_id].queue_free()
+		player_nodes.erase(client_id)
+	
+	# ลบข้อมูล Player
+	Global.remove_player(client_id)
+	
+	# ลบข้อมูล Turn
+	Global.players_turn.erase(client_id)
+
+	# ถ้าไม่มีใครถือ turn แล้ว
+	if not Global.players_turn.values().has(1):
+		if Global.players_turn.size() > 0:
+			# ย้าย turn ไปให้คนใหม่
+			var new_owner_id = Global.players_turn.keys()[0]
+			Global.players_turn[new_owner_id] = 1
+			print(\"🧭 ย้าย turn ไปให้ผู้เล่น ID:\", new_owner_id)
+		else:
+			# เหลือ Host คนเดียว
+			Global.players_turn.clear()
+			Global.players_turn[multiplayer.get_unique_id()] = 1
+		
+	notify_current_player.rpc()
+	
+	print(\"🎯 สถานะ players:\", Global.players)
+	print(\"🎯 สถานะ turn:\", Global.players_turn)
+	print(\"_______________________________\")
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xlrj8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_67jyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_meq3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_w63cn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ctmit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_6t0gu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_xx507")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yoqkl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_lo5on")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_uy05g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rb47u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_e4t71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_u6a2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_f52su")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_t7m8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_4e24o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_j3xah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_uhugd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_brsft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_1lkhb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_obp6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_evtht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_8hms0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_cmvsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_e7sb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_lxdsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ot71w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_sl6es")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_kuf82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_xlg1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_op5t0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_pdmo3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_k8me6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_mpbte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_i0tl0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_hqyhx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_o5pd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_p7hr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_22c5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_mkdcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_scv3y")
+}],
+"loop": false,
+"name": &"DiceRolling",
+"speed": 50.0
+}]
+
+[sub_resource type="Curve2D" id="Curve2D_figbp"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 161, 615, 0, 0, 0, 0, 217, 611, 0, 0, 0, 0, 298, 608, 0, 0, 0, 0, 374, 614, 0, 0, 0, 0, 448, 614, 0, 0, 0, 0, 507, 610, 0, 0, 0, 0, 590, 615, 0, 0, 0, 0, 667, 615, 0, 0, 0, 0, 743, 610, 0, 0, 0, 0, 816, 613, 0, 0, 0, 0, 895, 611, 0, 0, 0, 0, 894, 548, 0, 0, 0, 0, 819, 545, 0, 0, 0, 0, 743, 548, 0, 0, 0, 0, 670, 548, 0, 0, 0, 0, 594, 555, 0, 0, 0, 0, 522, 550, 0, 0, 0, 0, 435, 550, 0, 0, 0, 0, 366, 550, 0, 0, 0, 0, 294, 548, 0, 0, 0, 0, 220, 547, 0, 0, 0, 0, 224, 485, 0, 0, 0, 0, 288, 484, 0, 0, 0, 0, 371, 485, 0, 0, 0, 0, 436, 485, 0, 0, 0, 0, 519, 485, 0, 0, 0, 0, 597, 485, 0, 0, 0, 0, 662, 483, 0, 0, 0, 0, 741, 485, 0, 0, 0, 0, 810, 485, 0, 0, 0, 0, 893, 489, 0, 0, 0, 0, 895, 423, 0, 0, 0, 0, 819, 420, 0, 0, 0, 0, 741, 419, 0, 0, 0, 0, 673, 420, 0, 0, 0, 0, 591, 419, 0, 0, 0, 0, 519, 421, 0, 0, 0, 0, 436, 419, 0, 0, 0, 0, 366, 418, 0, 0, 0, 0, 289, 417, 0, 0, 0, 0, 227, 418, 0, 0, 0, 0, 220, 359, 0, 0, 0, 0, 293, 359, 0, 0, 0, 0, 373, 359, 0, 0, 0, 0, 442, 361, 0, 0, 0, 0, 514, 356, 0, 0, 0, 0, 597, 358, 0, 0, 0, 0, 668, 355, 0, 0, 0, 0, 743, 354, 0, 0, 0, 0, 824, 358, 0, 0, 0, 0, 890, 356, 0, 0, 0, 0, 889, 290, 0, 0, 0, 0, 826, 289, 0, 0, 0, 0, 738, 289, 0, 0, 0, 0, 666, 293, 0, 0, 0, 0, 594, 292, 0, 0, 0, 0, 515, 290, 0, 0, 0, 0, 439, 289, 0, 0, 0, 0, 364, 289, 0, 0, 0, 0, 292, 290, 0, 0, 0, 0, 223, 288, 0, 0, 0, 0, 222, 227, 0, 0, 0, 0, 290, 228, 0, 0, 0, 0, 368, 223, 0, 0, 0, 0, 447, 224, 0, 0, 0, 0, 524, 224, 0, 0, 0, 0, 599, 223, 0, 0, 0, 0, 663, 224, 0, 0, 0, 0, 740, 225, 0, 0, 0, 0, 820, 222, 0, 0, 0, 0, 893, 223, 0, 0, 0, 0, 887, 162, 0, 0, 0, 0, 818, 163, 0, 0, 0, 0, 742, 163, 0, 0, 0, 0, 669, 162, 0, 0, 0, 0, 590, 163, 0, 0, 0, 0, 523, 159, 0, 0, 0, 0, 441, 158, 0, 0, 0, 0, 367, 160, 0, 0, 0, 0, 294, 157, 0, 0, 0, 0, 220, 159, 0, 0, 0, 0, 221, 101, 0, 0, 0, 0, 297, 95, 0, 0, 0, 0, 373, 97, 0, 0, 0, 0, 451, 98, 0, 0, 0, 0, 521, 97, 0, 0, 0, 0, 593, 98, 0, 0, 0, 0, 673, 97, 0, 0, 0, 0, 746, 98, 0, 0, 0, 0, 811, 94, 0, 0, 0, 0, 889, 97, 0, 0, 0, 0, 887, 37, 0, 0, 0, 0, 814, 40, 0, 0, 0, 0, 749, 35, 0, 0, 0, 0, 674, 33, 0, 0, 0, 0, 592, 34, 0, 0, 0, 0, 518, 33, 0, 0, 0, 0, 445, 35, 0, 0, 0, 0, 372, 34, 0, 0, 0, 0, 298, 33, 0, 0, 0, 0, 220, 35)
+}
+point_count = 101
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_57u7y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_wr4vo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_0b0ju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_rhv12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_m4dex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_maqq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_06mhr")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gcfxn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_61tmj"]
+
+[node name="Main" type="Node2D"]
+script = SubResource("GDScript_sbbv7")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+offset_left = -17.0
+offset_top = -17.0
+offset_right = 1194.0
+offset_bottom = 702.0
+color = Color(0, 0, 0, 1)
+
+[node name="Mapp" type="Sprite2D" parent="."]
+position = Vector2(558, 326)
+texture = ExtResource("1_yi1lr")
+
+[node name="Map" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(555.833, 322.953)
+scale = Vector2(1.1599, 1.00087)
+texture = ExtResource("47_ngqhu")
+
+[node name="Dice" type="Sprite2D" parent="."]
+
+[node name="DiceAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(1039, 178)
+scale = Vector2(0.306122, 0.288889)
+sprite_frames = SubResource("SpriteFrames_xlrj8")
+animation = &"DiceRolling"
+
+[node name="PathWalk" type="Path2D" parent="."]
+curve = SubResource("Curve2D_figbp")
+
+[node name="PathFollow2D2" type="PathFollow2D" parent="PathWalk"]
+visible = false
+position = Vector2(161, 615)
+rotation = -0.0713075
+
+[node name="Player1" type="Sprite2D" parent="PathWalk/PathFollow2D2"]
+visible = false
+position = Vector2(-2.96132, -3.0382)
+rotation = 0.0410728
+scale = Vector2(0.0950722, 0.070395)
+texture = ExtResource("49_3d3au")
+
+[node name="Player2" type="Sprite2D" parent="PathWalk"]
+visible = false
+position = Vector2(154.38, 610.252)
+scale = Vector2(0.111281, 0.0644905)
+texture = ExtResource("50_o67c0")
+
+[node name="Player3" type="Sprite2D" parent="PathWalk"]
+visible = false
+position = Vector2(154.38, 610.252)
+scale = Vector2(0.117133, 0.0611234)
+texture = ExtResource("51_sg7rs")
+
+[node name="Player4" type="Sprite2D" parent="PathWalk"]
+visible = false
+position = Vector2(154.38, 610.252)
+scale = Vector2(0.0908019, 0.0599776)
+texture = ExtResource("52_buca6")
+
+[node name="BG" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(561, 323)
+scale = Vector2(0.690132, 0.390832)
+texture = ExtResource("49_go3q2")
+
+[node name="TurnLabel" type="Label" parent="."]
+visible = false
+offset_left = 976.0
+offset_top = 406.0
+offset_right = 1099.0
+offset_bottom = 486.0
+theme_override_fonts/font = ExtResource("55_yjboo")
+theme_override_font_sizes/font_size = 20
+
+[node name="DiceLabel" type="Label" parent="."]
+offset_left = 983.0
+offset_top = 348.0
+offset_right = 1091.0
+offset_bottom = 399.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+horizontal_alignment = 1
+
+[node name="Dice_Button" type="Button" parent="."]
+offset_left = 980.0
+offset_top = 540.0
+offset_right = 1100.0
+offset_bottom = 624.0
+theme = ExtResource("54_ctwjd")
+text = "Roll"
+
+[node name="DiceFace" type="AnimatedSprite2D" parent="."]
+position = Vector2(1039, 177)
+scale = Vector2(0.363821, 0.342593)
+sprite_frames = SubResource("SpriteFrames_57u7y")
+
+[node name="GameOver" type="Label" parent="."]
+offset_left = 182.0
+offset_top = 210.0
+offset_right = 932.0
+offset_bottom = 455.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 120
+
+[node name="isHost" type="Label" parent="."]
+offset_left = 15.0
+offset_top = 306.0
+offset_right = 147.0
+offset_bottom = 378.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="."]
+offset_left = 8.0
+offset_top = 13.0
+offset_right = 93.0
+offset_bottom = 59.0
+texture = ExtResource("55_8bbyh")
+
+[node name="Exit_button" type="Button" parent="NinePatchRect2"]
+layout_mode = 0
+offset_right = 83.0
+offset_bottom = 45.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/hover = SubResource("StyleBoxEmpty_gcfxn")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_61tmj")
+text = "EXIT"
+
+[node name="message_label" type="Label" parent="."]
+offset_left = 225.0
+offset_top = 192.0
+offset_right = 890.0
+offset_bottom = 495.0
+theme = ExtResource("54_ctwjd")
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("55_yjboo")
+theme_override_font_sizes/font_size = 45
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[connection signal="pressed" from="Dice_Button" to="." method="_on_dice_button_pressed"]
+[connection signal="pressed" from="NinePatchRect2/Exit_button" to="." method="_on_exit_button_pressed"]

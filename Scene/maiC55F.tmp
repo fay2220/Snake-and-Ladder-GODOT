@@ -1,0 +1,438 @@
+[gd_scene load_steps=58 format=3 uid="uid://j4irnrgafhqq"]
+
+[ext_resource type="Texture2D" uid="uid://cli5m0hp4p00n" path="res://DiceAnimation/dice0001.png" id="2_67jyc"]
+[ext_resource type="Texture2D" uid="uid://dypfxpphgr66x" path="res://DiceAnimation/dice0002.png" id="3_meq3t"]
+[ext_resource type="Texture2D" uid="uid://bj12l7bufm63s" path="res://DiceAnimation/dice0003.png" id="4_w63cn"]
+[ext_resource type="Texture2D" uid="uid://dmbe2820eottb" path="res://DiceAnimation/dice0004.png" id="5_ctmit"]
+[ext_resource type="Texture2D" uid="uid://cfmfl43m2dcki" path="res://DiceAnimation/dice0005.png" id="6_6t0gu"]
+[ext_resource type="Texture2D" uid="uid://c712nlegktsd4" path="res://DiceAnimation/dice0006.png" id="7_xx507"]
+[ext_resource type="Texture2D" uid="uid://drmo8ouuvqgf7" path="res://DiceAnimation/dice0007.png" id="8_yoqkl"]
+[ext_resource type="Texture2D" uid="uid://c0gdsny6pa601" path="res://DiceAnimation/dice0008.png" id="9_lo5on"]
+[ext_resource type="Texture2D" uid="uid://c4k7qyy821e06" path="res://DiceAnimation/dice0009.png" id="10_uy05g"]
+[ext_resource type="Texture2D" uid="uid://co5pcgex06yqx" path="res://DiceAnimation/dice0010.png" id="11_rb47u"]
+[ext_resource type="Texture2D" uid="uid://bs1886roq18cq" path="res://DiceAnimation/dice0011.png" id="12_e4t71"]
+[ext_resource type="Texture2D" uid="uid://bp1d32fuivy0s" path="res://DiceAnimation/dice0012.png" id="13_u6a2d"]
+[ext_resource type="Texture2D" uid="uid://do75dynn52tic" path="res://DiceAnimation/dice0013.png" id="14_f52su"]
+[ext_resource type="Texture2D" uid="uid://oae7t6d2rr0g" path="res://DiceAnimation/dice0014.png" id="15_t7m8m"]
+[ext_resource type="Texture2D" uid="uid://b5qu48t4fb0l6" path="res://DiceAnimation/dice0015.png" id="16_4e24o"]
+[ext_resource type="Texture2D" uid="uid://ca70bfc7noaig" path="res://DiceAnimation/dice0016.png" id="17_j3xah"]
+[ext_resource type="Texture2D" uid="uid://cag8pm0ffkrtu" path="res://DiceAnimation/dice0017.png" id="18_uhugd"]
+[ext_resource type="Texture2D" uid="uid://cfxkojip1xqr4" path="res://DiceAnimation/dice0018.png" id="19_brsft"]
+[ext_resource type="Texture2D" uid="uid://f8bywre43xhi" path="res://DiceAnimation/dice0019.png" id="20_1lkhb"]
+[ext_resource type="Texture2D" uid="uid://bc1c6yulwh7gq" path="res://DiceAnimation/dice0020.png" id="21_obp6t"]
+[ext_resource type="Texture2D" uid="uid://cr8ysc7bpefdu" path="res://DiceAnimation/dice0021.png" id="22_evtht"]
+[ext_resource type="Texture2D" uid="uid://csiukbjkwlfrx" path="res://DiceAnimation/dice0022.png" id="23_8hms0"]
+[ext_resource type="Texture2D" uid="uid://c2wsfncv37bx3" path="res://DiceAnimation/dice0023.png" id="24_cmvsm"]
+[ext_resource type="Texture2D" uid="uid://chaj3jce5s5si" path="res://DiceAnimation/dice0024.png" id="25_e7sb4"]
+[ext_resource type="Texture2D" uid="uid://b16ck2kn61l43" path="res://DiceAnimation/dice0025.png" id="26_lxdsn"]
+[ext_resource type="Texture2D" uid="uid://cqbtk6y17kuvi" path="res://DiceAnimation/dice0026.png" id="27_ot71w"]
+[ext_resource type="Texture2D" uid="uid://bwsmfiblhtv3" path="res://DiceAnimation/dice0027.png" id="28_sl6es"]
+[ext_resource type="Texture2D" uid="uid://dfxuq533lndem" path="res://DiceAnimation/dice00028.png" id="29_kuf82"]
+[ext_resource type="Texture2D" uid="uid://br8fcni7os8xv" path="res://DiceAnimation/dice0029.png" id="30_xlg1g"]
+[ext_resource type="Texture2D" uid="uid://dhqcdu5e7ydn1" path="res://DiceAnimation/dice0030.png" id="31_op5t0"]
+[ext_resource type="Texture2D" uid="uid://bik53yywawrvd" path="res://DiceAnimation/dice0031.png" id="32_pdmo3"]
+[ext_resource type="Texture2D" uid="uid://x04q64huip4f" path="res://DiceAnimation/dice0032.png" id="33_k8me6"]
+[ext_resource type="Texture2D" uid="uid://h6sd3bs07slg" path="res://DiceAnimation/dice0033.png" id="34_mpbte"]
+[ext_resource type="Texture2D" uid="uid://cqvcxh6ubq724" path="res://DiceAnimation/dice0034.png" id="35_i0tl0"]
+[ext_resource type="Texture2D" uid="uid://ccn65a06n68d7" path="res://DiceAnimation/dice0035.png" id="36_hqyhx"]
+[ext_resource type="Texture2D" uid="uid://c736y6xtge7iu" path="res://DiceAnimation/dice0036.png" id="37_o5pd0"]
+[ext_resource type="Texture2D" uid="uid://n15no6lmjqa0" path="res://DiceAnimation/dice0037.png" id="38_p7hr6"]
+[ext_resource type="Texture2D" uid="uid://lhxk5qbirmvp" path="res://DiceAnimation/dice0038.png" id="39_22c5i"]
+[ext_resource type="Texture2D" uid="uid://cxfc4etlxbpoe" path="res://DiceAnimation/dice0039.png" id="40_mkdcr"]
+[ext_resource type="Texture2D" uid="uid://drybbmjnsul5r" path="res://DiceAnimation/dice0040.png" id="41_scv3y"]
+[ext_resource type="Texture2D" uid="uid://cw1kpmq3hxvoi" path="res://img/1.png" id="42_wr4vo"]
+[ext_resource type="Texture2D" uid="uid://bvc8q52o1xkf3" path="res://img/2.png" id="43_0b0ju"]
+[ext_resource type="Texture2D" uid="uid://dt4ggmt2vcu1t" path="res://img/3.png" id="44_rhv12"]
+[ext_resource type="Texture2D" uid="uid://kp7bc6app5es" path="res://img/4.png" id="45_m4dex"]
+[ext_resource type="Texture2D" uid="uid://clra26hcufwvp" path="res://img/5.png" id="46_maqq3"]
+[ext_resource type="Texture2D" uid="uid://bjk3vpdmlon" path="res://img/6.png" id="47_06mhr"]
+[ext_resource type="Texture2D" uid="uid://3r2q7birpc4s" path="res://img/ไม่มีชื่อ (75 x 66 px) (640 x 640 px).png" id="47_ngqhu"]
+[ext_resource type="Texture2D" uid="uid://bjq2y3gia7g48" path="res://img/player1.png" id="49_3d3au"]
+[ext_resource type="Texture2D" uid="uid://bsdi8f1fc1fgi" path="res://img/Screenshot 2568-04-06 at 00.03.30.png" id="49_go3q2"]
+[ext_resource type="Texture2D" uid="uid://xps5xrfl1b2w" path="res://img/player2.png" id="50_o67c0"]
+[ext_resource type="Texture2D" uid="uid://bkuv07yq5s46n" path="res://img/player3.png" id="51_sg7rs"]
+[ext_resource type="Texture2D" uid="uid://xyfbipkw1qlu" path="res://img/player4.png" id="52_buca6"]
+[ext_resource type="Texture2D" uid="uid://co1g1ckvdbldd" path="res://img/Screenshot 2568-04-19 at 20.10.32.png" id="54_xcgrf"]
+
+[sub_resource type="GDScript" id="GDScript_sbbv7"]
+resource_name = "new01"
+script/source = "extends Node2D
+
+@onready var turn_label = $TurnLabel
+@onready var dice_button = $Dice_Button
+@onready var dice_animation = $DiceAnimation
+@onready var dice_face = $DiceFace
+@onready var game_over = $GameOver
+@onready var is_host_label = $isHost
+@onready var dice_label = $DiceLabel
+@onready var path_walk = $PathWalk
+@onready var path_follow = $PathWalk/PathFollow2D2
+
+
+func _ready():
+	if not multiplayer.has_multiplayer_peer():
+		return_to_lobby()
+		return 
+	
+	var my_name = Global.my_name
+	
+	if multiplayer.is_server():
+		is_host_label.text = \"🖥️ คุณคือ Host \" + my_name
+		initialize_game.rpc()
+	else:
+		is_host_label.text = \"🎮 คุณคือ Client \" + my_name
+	
+	if Global.peer:
+		multiplayer.multiplayer_peer = Global.peer
+		
+	dice_button.pressed.connect(_on_dice_pressed)
+	
+	await get_tree().create_timer(1.0).timeout
+	if multiplayer.multiplayer_peer.get_connection_status() == MultiplayerPeer.CONNECTION_DISCONNECTED:
+		return_to_lobby()
+	
+	if path_walk.curve == null:
+		push_error(\"Path2D ไม่มี Curve กําหนด!\")
+		return
+	
+	path_follow.progress_ratio = 0
+	path_follow.rotation = false
+
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func initialize_game():
+	if multiplayer.is_server():
+		Global.player_order = Global.players.keys()
+		Global.player_order.sort()
+		Global.current_turn_index = 0
+
+func _on_dice_pressed():
+
+	#dice_button.disabled = true
+	dice_face.hide()
+	dice_animation.show()
+	dice_animation.play(\"DiceRolling\")
+	
+	await dice_animation.animation_finished
+	#var roll = randi_range(1, 6)
+	var roll = 1
+	dice_label.text = Global.my_name + \"🎲 ทอยได้ : \" + str(roll)
+	
+	dice_face.frame = roll - 1
+	dice_face.show()
+	dice_animation.hide()
+	
+		# ส่งผลทอยไปยัง Host (รวมถึงตัวเองถ้าเป็น Host)
+	if multiplayer.is_server():
+		# ถ้าเป็น Host ให้ประมวลผลทันที
+		process_roll_result(multiplayer.get_unique_id(), roll)
+	else:
+		# ถ้าเป็น Client ส่งไปหา Host
+		send_roll_result.rpc_id(1, multiplayer.get_unique_id(), roll)
+
+@rpc(\"any_peer\", \"reliable\")
+func send_roll_result(player_id: int, roll: int):
+	if not multiplayer.is_server():
+		return
+	process_roll_result(player_id, roll)
+	
+# ฟังก์ชันสำหรับประมวลผลผลลัพธ์การทอย (ทำงานบน Host)
+func process_roll_result(player_id: int, roll: int):
+	print(\"📨 รับค่าทอยจากผู้เล่น ID:\", player_id, \" ได้แต้ม:\", roll)
+	print(\"ล่าสุด\",Global.players_point)
+	var current = Global.players_point[player_id]
+	Global.players_point[player_id] += roll
+	var end_spot = Global.players_point[player_id]
+	move_player.rpc(player_id, end_spot,current)  # สั่งให้ทุกเครื่องเคลื่อนที่
+	print(\"update\",Global.players_point)
+
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func move_player(player_id: int,end_spot: int,current: int):
+	print(\"move_player\")
+	for i in range(current , end_spot + 1):
+		var point_position = path_walk.curve.get_point_position(i)
+		var tween := create_tween()
+		tween.tween_property(path_follow, \"position\", point_position, 0.2)
+		print(\"กำลังเดินไปยังจุดที่ \", i)
+
+@rpc(\"authority\", \"call_local\", \"reliable\")
+func announce_winner(player_id: int):
+	var winner_name = Global.players.get(player_id, \"Unknown\")
+	game_over.text = \"🏆 %s ชนะ!\" % winner_name
+	game_over.show()
+	dice_button.disabled = true
+	await get_tree().create_timer(5.0).timeout
+	return_to_lobby()
+
+func return_to_lobby():
+	get_tree().change_scene_to_file(\"res://Scene/lobby.tscn\")
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xlrj8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_67jyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_meq3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_w63cn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ctmit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_6t0gu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_xx507")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yoqkl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_lo5on")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_uy05g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rb47u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_e4t71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_u6a2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_f52su")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_t7m8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_4e24o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_j3xah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_uhugd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_brsft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_1lkhb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_obp6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_evtht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_8hms0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_cmvsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_e7sb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_lxdsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ot71w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_sl6es")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_kuf82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_xlg1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_op5t0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_pdmo3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_k8me6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_mpbte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_i0tl0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_hqyhx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_o5pd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_p7hr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_22c5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_mkdcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_scv3y")
+}],
+"loop": false,
+"name": &"DiceRolling",
+"speed": 50.0
+}]
+
+[sub_resource type="Curve2D" id="Curve2D_figbp"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 220, 609, 0, 0, 0, 0, 298, 608, 0, 0, 0, 0, 374, 614, 0, 0, 0, 0, 448, 614, 0, 0, 0, 0, 507, 610, 0, 0, 0, 0, 590, 615, 0, 0, 0, 0, 667, 615, 0, 0, 0, 0, 743, 610, 0, 0, 0, 0, 816, 613, 0, 0, 0, 0, 895, 611, 0, 0, 0, 0, 894, 548, 0, 0, 0, 0, 819, 545, 0, 0, 0, 0, 743, 548, 0, 0, 0, 0, 670, 548, 0, 0, 0, 0, 594, 555, 0, 0, 0, 0, 522, 550, 0, 0, 0, 0, 435, 550, 0, 0, 0, 0, 366, 550, 0, 0, 0, 0, 294, 548, 0, 0, 0, 0, 220, 547, 0, 0, 0, 0, 224, 485, 0, 0, 0, 0, 288, 484, 0, 0, 0, 0, 371, 485, 0, 0, 0, 0, 436, 485, 0, 0, 0, 0, 519, 485, 0, 0, 0, 0, 597, 485, 0, 0, 0, 0, 662, 483, 0, 0, 0, 0, 741, 485, 0, 0, 0, 0, 810, 485, 0, 0, 0, 0, 893, 489, 0, 0, 0, 0, 895, 423, 0, 0, 0, 0, 819, 420, 0, 0, 0, 0, 741, 419, 0, 0, 0, 0, 673, 420, 0, 0, 0, 0, 591, 419, 0, 0, 0, 0, 519, 421, 0, 0, 0, 0, 436, 419, 0, 0, 0, 0, 366, 418, 0, 0, 0, 0, 289, 417, 0, 0, 0, 0, 227, 418, 0, 0, 0, 0, 220, 359, 0, 0, 0, 0, 293, 359, 0, 0, 0, 0, 373, 359, 0, 0, 0, 0, 442, 361, 0, 0, 0, 0, 514, 356, 0, 0, 0, 0, 597, 358, 0, 0, 0, 0, 668, 355, 0, 0, 0, 0, 743, 354, 0, 0, 0, 0, 824, 358, 0, 0, 0, 0, 890, 356, 0, 0, 0, 0, 889, 290, 0, 0, 0, 0, 826, 289, 0, 0, 0, 0, 738, 289, 0, 0, 0, 0, 666, 293, 0, 0, 0, 0, 594, 292, 0, 0, 0, 0, 515, 290, 0, 0, 0, 0, 439, 289, 0, 0, 0, 0, 364, 289, 0, 0, 0, 0, 292, 290, 0, 0, 0, 0, 223, 288, 0, 0, 0, 0, 222, 227, 0, 0, 0, 0, 290, 228, 0, 0, 0, 0, 368, 223, 0, 0, 0, 0, 447, 224, 0, 0, 0, 0, 524, 224, 0, 0, 0, 0, 599, 223, 0, 0, 0, 0, 663, 224, 0, 0, 0, 0, 740, 225, 0, 0, 0, 0, 820, 222, 0, 0, 0, 0, 893, 223, 0, 0, 0, 0, 887, 162, 0, 0, 0, 0, 818, 163, 0, 0, 0, 0, 742, 163, 0, 0, 0, 0, 669, 162, 0, 0, 0, 0, 590, 163, 0, 0, 0, 0, 523, 159, 0, 0, 0, 0, 441, 158, 0, 0, 0, 0, 367, 160, 0, 0, 0, 0, 294, 157, 0, 0, 0, 0, 220, 159, 0, 0, 0, 0, 221, 101, 0, 0, 0, 0, 297, 95, 0, 0, 0, 0, 373, 97, 0, 0, 0, 0, 451, 98, 0, 0, 0, 0, 521, 97, 0, 0, 0, 0, 593, 98, 0, 0, 0, 0, 673, 97, 0, 0, 0, 0, 746, 98, 0, 0, 0, 0, 811, 94, 0, 0, 0, 0, 889, 97, 0, 0, 0, 0, 887, 37, 0, 0, 0, 0, 814, 40, 0, 0, 0, 0, 749, 35, 0, 0, 0, 0, 674, 33, 0, 0, 0, 0, 592, 34, 0, 0, 0, 0, 518, 33, 0, 0, 0, 0, 445, 35, 0, 0, 0, 0, 372, 34, 0, 0, 0, 0, 298, 33, 0, 0, 0, 0, 220, 35)
+}
+point_count = 100
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_57u7y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_wr4vo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_0b0ju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_rhv12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_m4dex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_maqq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_06mhr")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Main" type="Node2D"]
+script = SubResource("GDScript_sbbv7")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -17.0
+offset_top = -17.0
+offset_right = 1194.0
+offset_bottom = 702.0
+color = Color(0, 0, 0, 1)
+
+[node name="Map" type="Sprite2D" parent="."]
+position = Vector2(555.833, 322.953)
+scale = Vector2(1.1599, 1.00087)
+texture = ExtResource("47_ngqhu")
+
+[node name="Dice" type="Sprite2D" parent="."]
+
+[node name="DiceAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(1039, 178)
+scale = Vector2(0.306122, 0.288889)
+sprite_frames = SubResource("SpriteFrames_xlrj8")
+animation = &"DiceRolling"
+
+[node name="PathWalk" type="Path2D" parent="."]
+curve = SubResource("Curve2D_figbp")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="PathWalk"]
+visible = false
+position = Vector2(220, 609)
+rotation = -0.0128198
+
+[node name="Player1" type="Sprite2D" parent="PathWalk/PathFollow2D"]
+position = Vector2(-65.4927, -13.7007)
+rotation = 0.0410728
+scale = Vector2(0.0950722, 0.070395)
+texture = ExtResource("49_3d3au")
+
+[node name="PathFollow2D2" type="PathFollow2D" parent="PathWalk"]
+position = Vector2(220, 609)
+rotation = -0.0128198
+
+[node name="Player1" type="Sprite2D" parent="PathWalk/PathFollow2D2"]
+position = Vector2(-2.96132, -3.0382)
+rotation = 0.0410728
+scale = Vector2(0.0950722, 0.070395)
+texture = ExtResource("49_3d3au")
+
+[node name="Player2" type="Sprite2D" parent="PathWalk"]
+position = Vector2(154.38, 610.252)
+scale = Vector2(0.111281, 0.0644905)
+texture = ExtResource("50_o67c0")
+
+[node name="Player3" type="Sprite2D" parent="PathWalk"]
+visible = false
+position = Vector2(154.38, 610.252)
+scale = Vector2(0.117133, 0.0611234)
+texture = ExtResource("51_sg7rs")
+
+[node name="Player4" type="Sprite2D" parent="PathWalk"]
+visible = false
+position = Vector2(154.38, 610.252)
+scale = Vector2(0.0908019, 0.0599776)
+texture = ExtResource("52_buca6")
+
+[node name="BG" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(561, 323)
+scale = Vector2(0.690132, 0.390832)
+texture = ExtResource("49_go3q2")
+
+[node name="GameOver" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(567, 313)
+scale = Vector2(0.346402, 0.324657)
+texture = ExtResource("54_xcgrf")
+
+[node name="TurnLabel" type="Label" parent="."]
+offset_left = 982.0
+offset_top = 403.0
+offset_right = 1068.0
+offset_bottom = 431.0
+
+[node name="DiceLabel" type="Label" parent="."]
+offset_left = 983.0
+offset_top = 348.0
+offset_right = 1091.0
+offset_bottom = 399.0
+horizontal_alignment = 1
+
+[node name="Dice_Button" type="Button" parent="."]
+offset_left = 980.0
+offset_top = 540.0
+offset_right = 1100.0
+offset_bottom = 624.0
+text = "Roll"
+
+[node name="DiceFace" type="AnimatedSprite2D" parent="."]
+position = Vector2(1039, 177)
+scale = Vector2(0.363821, 0.342593)
+sprite_frames = SubResource("SpriteFrames_57u7y")
+
+[node name="isHost" type="Label" parent="."]
+offset_left = 23.0
+offset_top = 19.0
+offset_right = 155.0
+offset_bottom = 91.0
+text = "..."
+
+[connection signal="animation_finished" from="DiceAnimation" to="." method="_on_DiceAnimation_animation_finished"]

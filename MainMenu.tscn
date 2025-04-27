@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://deksths0etqkq"]
+
+[sub_resource type="FontVariation" id="FontVariation_yir12"]
+
+[sub_resource type="Theme" id="Theme_mto1l"]
+default_font = SubResource("FontVariation_yir12")
+
+[node name="MainMenu" type="Node2D"]
+
+[node name="JoinButton" type="Button" parent="."]
+offset_left = 386.0
+offset_top = 441.0
+offset_right = 515.0
+offset_bottom = 474.0
+text = "Join"
+
+[node name="HostButton" type="Button" parent="."]
+offset_left = 239.0
+offset_top = 441.0
+offset_right = 367.0
+offset_bottom = 473.0
+theme = SubResource("Theme_mto1l")
+text = "Host"
+
+[node name="NameInput" type="LineEdit" parent="."]
+offset_left = 243.0
+offset_top = 314.0
+offset_right = 519.0
+offset_bottom = 345.0
+placeholder_text = "Name"
+
+[node name="IPInput" type="LineEdit" parent="."]
+offset_left = 243.0
+offset_top = 380.0
+offset_right = 516.0
+offset_bottom = 411.0

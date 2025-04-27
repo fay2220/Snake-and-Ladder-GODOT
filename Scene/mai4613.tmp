@@ -1,0 +1,97 @@
+[gd_scene load_steps=4 format=3 uid="uid://bt4xx3jjtx8sx"]
+
+[ext_resource type="Script" path="res://script/main.gd" id="1_csl75"]
+[ext_resource type="Texture2D" uid="uid://dlsoookhb3j6r" path="res://assets/ui/GUI-1.png" id="2_3djas"]
+[ext_resource type="Theme" uid="uid://qt1jukm2lhon" path="res://assets/DarkTheme/Dark.theme" id="3_wpnjc"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_csl75")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1159.0
+offset_bottom = 650.0
+color = Color(0, 0, 0, 1)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -154.0
+offset_top = -119.0
+offset_right = 154.0
+offset_bottom = 184.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_3djas")
+region_rect = Rect2(0.734909, -0.661703, 45.8397, 45.0656)
+patch_margin_left = 10
+patch_margin_top = 8
+patch_margin_right = 9
+patch_margin_bottom = 6
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -130.0
+offset_top = -135.0
+offset_right = 130.0
+offset_bottom = 135.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3_wpnjc")
+alignment = 1
+
+[node name="NameInput" type="LineEdit" parent="NinePatchRect/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_wpnjc")
+theme_override_font_sizes/font_size = 42
+placeholder_text = "Name"
+alignment = 1
+
+[node name="IPInput" type="LineEdit" parent="NinePatchRect/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_wpnjc")
+theme_override_colors/font_placeholder_color = Color(0.741385, 0.741385, 0.741385, 1)
+placeholder_text = "IP"
+
+[node name="HostButton" type="Button" parent="NinePatchRect/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_wpnjc")
+theme_override_font_sizes/font_size = 64
+text = "Host"
+
+[node name="JoinButton" type="Button" parent="NinePatchRect/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_wpnjc")
+theme_override_font_sizes/font_size = 64
+text = "Join
+"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -315.0
+offset_top = 30.0
+offset_right = 323.0
+offset_bottom = 190.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 100
+text = "Lucky Dice"
